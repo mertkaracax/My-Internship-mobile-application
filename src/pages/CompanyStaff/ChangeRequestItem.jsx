@@ -7,6 +7,7 @@ const ChangeRequestItem = ({ item }) => {
   const history = useHistory();
 
   return (
+    //MERT
     <View style={styles.view}>
       <TouchableOpacity
         onPress={() => history.push("/requestDetail", { object: item })}
